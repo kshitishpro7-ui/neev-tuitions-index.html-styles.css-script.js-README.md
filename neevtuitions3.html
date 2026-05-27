@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Neev Tuitions</title>
+
+    <meta name="description"
+        content="Neev Tuitions offers structured tutoring for students." />
+
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div class="page-shell">
+
+        <header class="topbar">
+
+            <div class="brand-block">
+                <div class="brand-mark">N</div>
+
+                <div>
+                    <p class="eyebrow">Focused Learning Studio</p>
+                    <h1>Neev Tuitions</h1>
+                </div>
+            </div>
+
+            <nav class="topnav" aria-label="Main Navigation">
+                <a href="#home">Home</a>
+                <a href="#packages">Packages</a>
+                <a href="#register">Register</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </header>
+
+        <!-- HERO -->
+
+        <section class="hero-section" id="home">
+
+            <div class="hero-copy">
+
+                <p class="pill">Trusted by curious learners</p>
+
+                <h2>
+                    Build strong concepts with guided tutoring
+                    that feels personal.
+                </h2>
+
+                <p class="hero-text">
+                    Personalized learning for every student.
+                </p>
+
+                <div class="cta-row">
+                    <a class="primary-btn" href="#register">
+                        Book a registration call
+                    </a>
+
+                    <a class="secondary-btn" href="#packages">
+                        View subject plans
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PACKAGES -->
+
+        <section class="section-heading" id="packages">
+
+            <div>
+                <p class="section-kicker">Subject plans</p>
+                <h2>Choose a focused monthly package</h2>
+            </div>
+
+        </section>
+
+        <section class="pricing-grid">
+
+            <article class="price-card">
+
+                <h3>Mathematics</h3>
+
+                <p class="price-amount">
+                    ₹900<span>/month</span>
+                </p>
+
+                <ul>
+                    <li>Algebra & Geometry</li>
+                    <li>Daily practice</li>
+                    <li>Weekly tests</li>
+                </ul>
+
+            </article>
+
+            <article class="price-card">
+
+                <h3>Science</h3>
+
+                <p class="price-amount">
+                    ₹900<span>/month</span>
+                </p>
+
+                <ul>
+                    <li>Physics & Chemistry</li>
+                    <li>Concept clarity</li>
+                    <li>Revision sessions</li>
+                </ul>
+
+            </article>
+
+        </section>
+
+        <!-- REGISTRATION -->
+
+        <section class="section-grid" id="register">
+
+            <div class="registration-copy">
+
+                <p class="section-kicker">
+                    Student registration
+                </p>
+
+                <h2>
+                    Start the learning journey today.
+                </h2>
+
+            </div>
+
+            <form
+                class="registration-form"
+                id="registrationForm"
+            >
+
+                <label>
+                    Parent Name
+
+                    <input
+                        type="text"
+                        name="guardian"
+                        placeholder="Asha Verma"
+                        required
+                    />
+                </label>
+
+                <label>
+                    Student Name
+
+                    <input
+                        type="text"
+                        name="student"
+                        placeholder="Arjun Verma"
+                        required
+                    />
+                </label>
+
+                <label>
+                    Contact Number
+
+                    <input
+                        type="tel"
+                        name="phone"
+                        pattern="[0-9]{10}"
+                        placeholder="9876543210"
+                        required
+                    />
+                </label>
+
+                <label>
+                    Email Address
+
+                    <input
+                        type="email"
+                        name="email"
+                        placeholder="parent@example.com"
+                        required
+                    />
+                </label>
+
+                <button type="submit" class="submit-btn">
+                    Register Student
+                </button>
+
+                <p class="form-note" id="formResponse">
+                    We will contact you shortly.
+                </p>
+
+            </form>
+
+        </section>
+
+        <!-- FOOTER -->
+
+        <footer class="site-footer" id="contact">
+
+            <div>
+                <p class="eyebrow">Neev Tuitions</p>
+
+                <p>
+                    Learning with clarity and confidence.
+                </p>
+            </div>
+
+            <div class="footer-links">
+
+                <a href="mailto:hello@neevtuitions.com">
+                    hello@neevtuitions.com
+                </a>
+
+                <a href="tel:+919876543210">
+                    +91 98765 43210
+                </a>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
